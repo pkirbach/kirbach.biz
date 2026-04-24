@@ -1,84 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Peter Kirbach</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kirbach</title>
 
 <style>
-
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-background: white;
-color: #222;
+    margin: 0;
+    height: 100vh;
+    background-color: #0A0B48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    color: white;
 }
 
-header {
-background: #0A0B48;
-color: white;
-padding: 70px 20px;
-text-align: center;
+.container {
+    text-align: center;
 }
 
-section {
-max-width: 800px;
-margin: auto;
-padding: 40px 20px;
-line-height: 1.6;
+.name {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
-h1 {
-margin-bottom: 10px;
+.email {
+    margin-top: 12px;
+    font-size: 20px;
+    opacity: 0.85;
 }
 
-footer {
-background: #0A0B48;
-color: white;
-text-align: center;
-padding: 20px;
-margin-top: 40px;
+.email a {
+    color: white;
+    text-decoration: none;
 }
 
+.email a:hover {
+    text-decoration: underline;
+}
 </style>
 </head>
 
 <body>
-
-<header>
-<h1>Peter Kirbach</h1>
-<p>Infrastructure Migration Engineer</p>
-</header>
-
-<section>
-
-<h2>About</h2>
-
-<p>
-I specialize in infrastructure transitions, cloud migrations, and network modernization across distributed environments. My work supports organizations during platform upgrades, tenant consolidations, and acquisition-driven IT integrations.
-</p>
-
-<h2>Focus Areas</h2>
-
-<ul>
-<li>Microsoft 365 tenant migrations</li>
-<li>Domain to Entra ID modernization</li>
-<li>Email and storage migrations</li>
-<li>Firewall replacements and network redesign</li>
-<li>Multi-site infrastructure cutovers</li>
-</ul>
-
-<h2>Contact</h2>
-
-<p>
-peter@kirbach.biz
-</p>
-
-</section>
-
-<footer>
-kirbach.biz
-</footer>
-
+<div class="container">
+    <div class="name">Peter Kirbach</div>
+    <div class="email">
+        <a href="mailto:peter@kirbach.biz">peter@kirbach.biz</a>
+    </div>
+</div>
 </body>
 </html>

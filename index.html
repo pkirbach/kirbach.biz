@@ -1,55 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kirbach</title>
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kirbach Thanksgiving 2026 menu and family plans.">
+<title>Kirbach Thanksgiving 2026</title>
 <style>
-body {
-    margin: 0;
-    height: 100vh;
-    background-color: #0A0B48;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    color: white;
-}
-
-.container {
-    text-align: center;
-}
-
-.name {
-    font-size: 48px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-.email {
-    margin-top: 12px;
-    font-size: 20px;
-    opacity: 0.85;
-}
-
-.email a {
-    color: white;
-    text-decoration: none;
-}
-
-.email a:hover {
-    text-decoration: underline;
-}
+:root{--dark:#172a28;--cream:#faf5e9;--gold:#e3b86c;--ink:#25342e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:var(--dark);color:white;text-align:center;padding:22px 20px 50px}
+nav{text-align:left;max-width:760px;margin:auto}
+nav a{color:var(--gold)}
+.headline{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.5rem,8vw,5rem);font-weight:600;line-height:1.12;letter-spacing:-.035em}
+h1{margin:44px 0 4px}
+header h2{margin:0 0 22px}
+header p{margin:8px auto;max-width:660px}
+.time{font-weight:750;font-size:1.5rem;color:var(--gold)}
+.intro{margin-top:20px;font-size:1.05rem}
+main{max-width:760px;margin:auto;padding:38px 20px 65px}
+section{margin-bottom:40px}
+h3{text-align:center;font:500 2rem Georgia,"Times New Roman",serif;margin:0 0 20px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden}
+th,td{padding:14px 17px;text-align:left;border-bottom:1px solid #e8e5de;vertical-align:top}
+th{background:#eee7d9}tr:last-child td{border-bottom:0}
+.muted{color:#657068;font-size:.94rem}
+.people{text-align:center;line-height:2}
+.updates{text-align:center}
+footer{text-align:center;padding:20px;color:#657068}
+@media(max-width:480px){th,td{padding:12px 10px}main{padding:28px 14px}.headline{font-size:clamp(2.2rem,9vw,3.3rem)}}
 </style>
 </head>
-
 <body>
-<div class="container">
-    <div class="name">Peter Kirbach</div>
-    <div class="email">
-        <a href="mailto:peter@kirbach.biz">peter@kirbach.biz</a>
-    </div>
-</div>
+<header>
+<nav><a href="/">← Kirbach.biz</a></nav>
+<h1 class="headline">Kirbach</h1>
+<h2 class="headline">Thanksgiving 2026</h2>
+<p>Thursday, November 26, 2026</p>
+<p class="time">Appetizers at 2:00 PM</p>
+<p class="intro">Peter and Deana are looking forward to hosting Thanksgiving this year. Come hungry — we'll start with appetizers at 2:00 PM!</p>
+</header>
+<main>
+<section>
+<h3>Menu</h3>
+<table>
+<thead><tr><th scope="col">Dish</th><th scope="col">Provided by</th></tr></thead>
+<tbody>
+<tr><td>Turkey</td><td>Peter &amp; Deana</td></tr>
+<tr><td>Sweet potatoes</td><td>Christopher</td></tr>
+<tr><td>Dessert</td><td>Christian &amp; Laura</td></tr>
+<tr><td>Dessert</td><td>Deon</td></tr>
+<tr><td>Cranberry relish</td><td>Nona</td></tr>
+<tr><td>Bread</td><td>To be decided</td></tr>
+</tbody>
+</table>
+<p class="muted">More dishes and assignments will be added as they're decided.</p>
+</section>
+<section>
+<h3>Family &amp; Guests</h3>
+<div class="people">Peter &amp; Deana<br>Nona<br>Christopher &amp; Deon<br>Maria &amp; Jared<br>Christian &amp; Laura<br>Laura's parents (?)</div>
+</section>
+<section class="updates">
+<h3>Updates</h3>
+<p class="muted">October 9 — Menu and guest list updated.</p>
+</section>
+</main>
+<footer>Kirbach · Thanksgiving 2026</footer>
 </body>
 </html>
